@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #025464;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addiction {
+    background-color: #025464;
+    display: flex;
+}
+
+.addiction_content {
+    padding: 20px;
+    padding-right: 0px;
+    color: white;
+}
+
+.addiction img {
+    height: 500px;
+}
+
+.addiction h1 {
+    font-size: 50px;
+}
+
+.addiction h1, 
+.addiction p {
+    margin: 40px 10px;
+}
+
+.addiction p {
+    font-size: 20px;
+}
+
+.sleep {
+    background-color: #E57C23;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.sleep img {
+    height: 150px;
+    margin: 30px;
+}
+
+.sleep p {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.measure .box:nth-child(even) {
+    background-color: #E8AA42;
+}
+
+.measure .box:nth-child(odd) {
+    background-color: #F8F1F1;
+}
+
+.measure .box {
+    width: 33.333%;
+    text-align: center;
+    padding: 40px;
+}
+
+.measure {
+    background-color: #f5eacb;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.measure img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.measure h1, 
+.measure p {
+    margin: 20px;
+}
+
+.assistant {
+    float: right;
+    width: 200px;
+}
+
+.assistant img {
+    width: 200px;
+}
+
+.assistant .doctor {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}
+.assistant textarea {
+    position: fixed;
+    bottom: 15rem;
+    right: 1rem;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    resize: none;
+}
+
+footer {
+    background-color: #F8F1F1;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+ a {
+    text-decoration: none;
+ }

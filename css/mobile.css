@@ -1,0 +1,18 @@
+.addiction {
+    display: grid;
+}
+.addiction img {
+    margin: auto;
+}
+.sleep {
+    display: grid;
+}
+.sleep img {
+    margin: auto;
+}
+.assistant {
+    display: none;
+}
+.measure .box {
+    width: auto;
+}
